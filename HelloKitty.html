@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Kitty</title>
+    <link rel="stylesheet" href="gridstyles.css">
+    <style type="text/css">
+        body{
+            background-image: url(https://i.etsystatic.com/19848283/r/il/25fe0b/2347020755/il_1588xN.2347020755_dp0a.jpg);
+        }
+    </style>
+
+    <style>
+        ul{
+            
+            overflow: hidden;
+            background-color: rgb(206, 155, 245);
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            padding: 16px;
+            display:block;
+            text-decoration: none;
+            color: rgb(1, 1, 1);
+        }
+        li a:hover{
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+
+   
+
+    <style>
+            
+            img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 35%;
+                length: 35%;
+            }
+               .header{
+            background-color: rgb(189, 185, 222);
+            grid-area:header;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: x-large;
+            text-align: center;
+            margin-left: auto;
+            padding: 150cm;
+            width: 500px;
+            length: 100px;
+            margin-right: auto;
+        }
+        .section1{
+            background-color: lightgreen;
+            grid-area: section1
+            grid-area: header;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: x-large;
+            text-align: center;
+            margin-left: auto;
+            padding: 150cm;
+            width: 600px;
+            length: 100px;
+            margin-right: auto;
+        }
+        .section2{
+            background-color: lightcoral;
+            grid-area: section2;
+            grid-area:header;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: x-large;
+            text-align: center;
+            margin-left: auto;
+            padding: 150cm;
+            width: 700px;
+            length: 100px;
+            margin-right: auto;
+        }
+        .section3{
+            background-color: gold;
+            grid-area: section3;
+            grid-area:header;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: x-large;
+            text-align: center;
+            margin-left: auto;
+            padding: 150cm;
+            width: 800px;
+            length: 100px;
+            margin-right: auto;
+        }
+        .footer{
+            background-color: orange;
+            grid-area: footer;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: x-large;
+            text-align: center;
+            margin-left: auto;
+            padding: 10px;
+            width: 900px;
+            length: 100px;
+            margin-right: auto;
+        }
+        .grid-container{
+            display:grid;
+            grid-template-areas: 
+            'header header header'
+            'section1 section2 section3'
+            'footer fotter footer';
+        }
+        .gridcontainer > div{
+            padding: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <ul>
+        <li><a href="Introduction.html">Introduction</a></li>
+            <li><a href="HelloKitty.html">Hello Kitty</a></li>
+            <li><a href="flexbox.html">flexbox</a></li>
+            <li><a href="Float.html">float</a></li>    
+            <li><a href="navbar.html">navbar</a></li>
+    </ul>
+    
+    <style>
+         h1{
+            color: rgb(43, 189, 226);
+            text-align: center;
+            font-size: xx-large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+
+      
+
+             
+
+    </style>
+   
+
+    <header></header><h1>Hello Kitty</h1>
+    <img src="hellokitty.jpg" alt="">
+
+    <div class = "gridcontainer">
+    <div class = "header">With its white ears and pink dress, Hello Kitty is one of Sanrio's most well known characters. From posters, to video games, you can see Hello Kitty anywhere, especially in Japan.</div>
+    <div class = "section1">A fun fact about Hello Kitty is that is promotes tourism in Japan. In other words, Japan is famous for Hello Kitty and has multiple restaurants based off of the fictional character.</div>
+    <div class = "section2">Hello Kitty's official name is Kitty White. In the cartoon movies, she was born in London. Created in 1974, there have been several theme parks based off of Hello Kitty.</div>
+    <div class = "section3">In Taipei, Taiwan, there are multiple cafes based off of Hello Kitty. </div>
+    <div class = "footer">Hello Kitty is portrayed as being good at baking cookies and loves Mama's homemade apple pie. She likes to collect cute things and her favorite subjects in school are English, music and art.</div>
+    <img src="hellokitty2.jpg" alt="">
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id = "Demonstration">Minions are the best!!</div>
+    <div id="difference">Next best movie is Zootopia.</div>
+    <button id ="eventdemo" onclick="document.getelementbyid("sum">The sum of these two numbers.</button>
+    <script>
+        const x = 5;
+        const y=3;
+
+        const a = 4;
+        const b = 1;
+
+        let sum = x+y;
+        let diff = x-y;
+
+        function sumNumbers(x, y){
+            return x+y;
+        }
+
+        sumNumbers(a,y);
+
+        function subtractNum(x,y){
+            return x-y;
+        }
+        subtractNum(y, a)
+
+        function multiplyNum(x,y){
+            return x*y;
+        }
+        multiplyNum(b, x)
+        
+        function divideNum(a,b){
+            return a/b
+        }
+        divideNum(4,1)
+
+        
+        document.getelementbyid("Demonstration.innerHTML") = sumNumbers(x,y);
+        document.getelementbyid("difference").innerHTML = subtractNum(a,b);
+        document.getelementbyid("eventdemo").addeventlistener("onclick", subtractNum(a,b));
+    </script>
+</body>
+</html>

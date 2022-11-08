@@ -1,0 +1,74 @@
+            title{
+                font-size: xx-large;
+                color: crimson;
+            }
+            
+            
+            h1{
+                color:aqua;
+                font-size:x-large;
+                text-align: center;
+                
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        
+            h2{
+                color:blueviolet;
+                font-size:x-large;
+                text-align: center;
+                font-family: 'Arial', Courier, monospace;
+                
+            }
+            h3{
+                font-size:x-large;
+                text-align: center;
+                font-family: 'Arial', Courier, monospace;
+            }
+
+            h4{
+                color:rgb(173, 239, 216);
+                text-align: center;
+                font-size:x-large;
+                font-family: 'Arial', Courier, monospace;
+        
+            }
+
+            h5{
+                font-size:x-large;
+                font-family: 'Arial', Courier, monospace;
+                text-align: center;
+
+            }
+            h6{
+                font-size: x-large;
+                text-align: center;
+                font-family: 'Arial', Courier, monospace;
+            }
+    
+
+            img {
+                height: 30%;
+                text-align: center;
+                width: 30%;
+            }
+
+            .blueclass{
+                color: rgb(6, 57, 195)
+    
+            }
+
+            .small{
+                color: rgb(255, 17, 0);
+            }
+
+            .smallclass{
+                height: 200%;
+                width: 200%;
+                color:rgb(87, 9, 255)
+            }
+
+            .bigclass{
+                height:400%;
+                width:400%;
+                color:rgb(69, 19, 249);
+            }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id= "image" src = "melody.jpg">
+    <br>
+    <button id = "button">Change image</button>
+    <br>
+    <div id = "displayCounter"></div>
+    <button>Change Image</button>
+
+
+    <script>
+        var animals = ["melody.jpg", "hellokitty.jpg"];
+        var counter =0;
+        const image = document.getElementById("image");
+        function changeAnimal(){
+            counter++;
+            if(counter % 3 ==0){
+                img.src = animals[0];
+            }
+            else if (counter % 3==1){
+                image.src = animals[1];
+            }
+            else if(counter % 3 ==2){
+                image.src = animals[2]
+            }
+            function printCounter(){
+                docuemt.getelementbyid("display Counter").innerHTML = "Counter="+ counter;
+            }
+
+            document.getelementbiid("button").addeventlistener("click", changeAnimal);
+            document.getelementbyid("button").addeventlistener("click",printCounter)
+        }
+    </script>
+</body>
+</html>
